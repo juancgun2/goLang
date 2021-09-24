@@ -66,7 +66,7 @@ func validateTypeValue(tp, value string) (bool, error) {
 	case "NN":
 		return isNumeric(value)
 	default:
-		return false, errors.New("something went wrong")
+		return false, errors.New("type not supported")
 	}
 }
 
