@@ -4,6 +4,7 @@ import (
 	"errors"
 	"regexp"
 	"strconv"
+	"strings"
 )
 
 type Result struct {
@@ -12,7 +13,8 @@ type Result struct {
 	Value string
 }
 
-func NewResult(input string) (Result, error) {
+func NewResult(inputUser string) (Result, error) {
+	input := strings.ToUpper(inputUser)
 	return createResult(input)
 }
 
