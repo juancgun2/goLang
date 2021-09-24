@@ -16,6 +16,9 @@ func NewResult(input string) (Result, error) {
 	return createResult(input)
 }
 
+/*
+	I didn't find other way to show the error, that's why I use many if - else
+*/
 func createResult(input string) (Result, error) {
 	size, err := getSize(input)
 	if err == nil {

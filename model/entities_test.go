@@ -21,11 +21,6 @@ func TestNewResult(t *testing.T) {
 
 	for _, testData := range cases {
 		_, err := NewResult(testData.Input)
-		/*
-			if err != nil && testData.Success {
-				panic("Solution failed")
-			}
-		*/
 		assert.Equal(err == nil, testData.Success, "If err == nil, success should be true")
 		assert.Equal(err != nil, !testData.Success, "If err != nil, success should be false")
 	}
