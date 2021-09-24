@@ -1,5 +1,10 @@
 # Seminario GoLang
 
+## Authors
+- Castaño Rossi, Juan Segundo
+- Sanchez Sanchez, Gaston Adrian
+- Frijon, Lautaro
+
 ## Description 
 Este proyecto analiza cadenas de strings y de ser correctas,
 devuelve una estructura indicando tipo, longitud y valor de la cadena. 
