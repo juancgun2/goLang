@@ -1,1 +1,1 @@
-# goLang
+# Seminario GoLang

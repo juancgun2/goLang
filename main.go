@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	input := "ZX11JuanSegundo" // JuanSegundo = 11 characters
+	input := "TX02AB"
 
 	result, err := model.NewResult(input)
 	if err == nil {
