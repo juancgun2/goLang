@@ -13,8 +13,8 @@ func TestNewResult(t *testing.T) {
 	}{
 		{"TX02AB", true},
 		{"NN100987654321", true},
-		{"TX04ABCDF", true}, // for me this input it's ok, just will be print 4 characters of the value
-		{"NN04000A", false}, // type doesn´t match with the input value // THIS CASE DOESN´T WORK IN THE CURRENT SOLUTION.
+		{"TX04ABCDF", true}, // for me this input it's ok, just will print 4 characters of the value
+		{"NN04000A", false}, // type doesn´t match with the input value
 		{"NN23AAAA", false}, // lenght out of index
 	}
 	assert := assert.New(t) // If you assert many times, use this format. LINK:https://pkg.go.dev/github.com/stretchr/testify/assert
